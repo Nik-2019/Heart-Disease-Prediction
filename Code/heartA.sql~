@@ -1,0 +1,30 @@
+CREATE database HeartA;
+USE HeartA;
+
+CREATE TABLE cleveland(
+EntryNo int(10) auto_increment primary key,
+Age int(10),
+Gender int(1),
+CP int(1),
+TrestBPS int(10),
+Cholestrol int(10),
+Fbs int(1),show 
+RestECG int(1),
+Thalach int(10),
+Exang int(1),
+OldPeak float(5),
+Slope int(1),
+Ca int(1),
+Thal int(1),
+Pred int(1)
+);
+
+
+LOAD DATA INFILE '/home/training/Desktop/Heart/processed.cleveland.csv' 
+INTO TABLE cleveland
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n'
+(Age,Gender,CP,TrestBPS,Cholestrol,Fbs,
+RestECG,Thalach,Exang,OldPeak,Slope,
+Ca,Thal,Pred);
+
