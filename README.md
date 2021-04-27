@@ -8,4 +8,4 @@ Dataset Description is explained well in article at TowardsDataScience https://t
 6. Code Folder contains Oracle Mysql source files to create and load database,
 Shell files to run Sqoop ETL from Mysql to HDFS, 
 Spark ipynb contains MLlib model to train Classification Models in Apache Spark.
-Another ipynb file contains code for SKLearn Classification Model.
+Another ipynb file contains code for SKLearn Classification Models.
