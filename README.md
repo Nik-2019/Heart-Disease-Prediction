@@ -1,6 +1,6 @@
 # Heart-Disease-Prediction
 1. Cleveland Data is taken from UCI Repository Dataset called "Heart-Disease" http://archive.ics.uci.edu/ml/datasets/Heart+Disease https://www.kaggle.com/aavigan/cleveland-clinic-heart-disease-dataset
-Dataset Description is well explained in article at TowardsDataScience https://towardsdatascience.com/heart-disease-prediction-73468d630cfc
+Dataset Description is explained well in article at TowardsDataScience https://towardsdatascience.com/heart-disease-prediction-73468d630cfc
 
 2. Data Flow and System specifications are mentioned in Report attached in Repo.
 4. PPT Presentation
